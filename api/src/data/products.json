@@ -1,0 +1,122 @@
+[
+  {
+    "id": "p1",
+    "name": "Guantes de boxeo 'Champion'",
+    "price": 75.5,
+    "isAvailable": true,
+    "category": "guantes",
+    "image": "/img/champion_gloves.jpg"
+  },
+  {
+    "id": "p2",
+    "name": "Protector bucal 'ProGuard'",
+    "price": 15.0,
+    "isAvailable": false,
+    "category": "proteccion",
+    "image": "/img/proguard_mouthguard.jpg"
+  },
+  {
+    "id": "p3",
+    "name": "Saco de boxeo 'Heavy Duty'",
+    "price": 120.0,
+    "isAvailable": true,
+    "category": "sacos",
+    "image": "/img/heavy_duty_bag.jpg"
+  },
+  {
+    "id": "p4",
+    "name": "Vendas de mano 'FlexWrap'",
+    "price": 8.99,
+    "isAvailable": true,
+    "category": "vendajes",
+    "image": "/img/flexwrap_wraps.jpg"
+  },
+  {
+    "id": "p5",
+    "name": "Pera loca 'Speedster'",
+    "price": 45.75,
+    "isAvailable": true,
+    "category": "sacos",
+    "image": "/img/speedster_bag.jpg"
+  },
+  {
+    "id": "p6",
+    "name": "Casco de entrenamiento 'Guardian'",
+    "price": 55.0,
+    "isAvailable": true,
+    "category": "proteccion",
+    "image": "/img/guardian_headgear.jpg"
+  },
+  {
+    "id": "p7",
+    "name": "Short de boxeo 'Legacy'",
+    "price": 30.0,
+    "isAvailable": true,
+    "category": "ropa",
+    "image": "/img/legacy_shorts.jpg"
+  },
+  {
+    "id": "p8",
+    "name": "Cuerda para saltar 'AeroJump'",
+    "price": 19.5,
+    "isAvailable": false,
+    "category": "accesorios",
+    "image": "/img/aerojump_rope.jpg"
+  },
+  {
+    "id": "p9",
+    "name": "Pads de golpeo 'Focus Mitts Pro'",
+    "price": 85.0,
+    "isAvailable": true,
+    "category": "entrenamiento",
+    "image": "/img/focus_mitts_pro.jpg"
+  },
+  {
+    "id": "p10",
+    "name": "Guantes de MMA 'Octagon'",
+    "price": 65.0,
+    "isAvailable": true,
+    "category": "guantes",
+    "image": "/img/octagon_mma_gloves.jpg"
+  },
+  {
+    "id": "p11",
+    "name": "Soporte para saco de boxeo 'Wall Mount'",
+    "price": 40.0,
+    "isAvailable": true,
+    "category": "sacos",
+    "image": "/img/wall_mount_bracket.jpg"
+  },
+  {
+    "id": "p12",
+    "name": "Zapatillas de boxeo 'Ring King'",
+    "price": 95.0,
+    "isAvailable": false,
+    "category": "calzado",
+    "image": "/img/ring_king_shoes.jpg"
+  },
+  {
+    "id": "p13",
+    "name": "Bata de boxeo 'Classic'",
+    "price": 50.0,
+    "isAvailable": true,
+    "category": "ropa",
+    "image": "/img/classic_robe.jpg"
+  },
+  {
+    "id": "p14",
+    "name": "Guantes de entrenamiento 'Spartan'",
+    "price": 59.99,
+    "isAvailable": true,
+    "category": "guantes",
+    "image": "/img/spartan_gloves.jpg"
+  },
+  {
+    "id": "p15",
+    "name": "Protector de ingle 'Elite Guard'",
+    "price": 25.0,
+    "isAvailable": true,
+    "category": "proteccion",
+    "image": "/img/elite_guard_groin.jpg"
+  }
+]
