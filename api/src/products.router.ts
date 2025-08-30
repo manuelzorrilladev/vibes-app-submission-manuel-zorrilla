@@ -9,7 +9,7 @@ import { findObjectById,findByName ,orderArray,paginateArray,findObjectAvailable
 const router = express.Router();
 
 router.get("/products/all", (req, res) => {
-  res.json(productsFile);
+  res.send(productsFile);
 });
 
 router.get("/products/:id", (req, res) => {
@@ -38,7 +38,7 @@ router.get("/products/",(req,res)=>{
     returnObject = orderArray(returnObject, queryParams.sort, queryParams.order)
 
     returnObject = paginateArray(returnObject, queryParams.page, queryParams.limit)
-
+    
     res.json(returnObject)
 
     
