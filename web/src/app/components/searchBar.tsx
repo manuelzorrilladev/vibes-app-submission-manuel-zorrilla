@@ -1,11 +1,51 @@
-export default function Home() {
+"use client";
+
+import React, { useState, ChangeEvent } from "react";
+import { SearchParams } from "../types/types";
+interface ChildProps {
+  onSendData: (formData: SearchParams) => void;
+}
+
+const SearchBar: React.FC<ChildProps> = ({ onSendData }) => {
+  const [childFormInputs, setChildFormInputs] = useState({
+    search: "",
+    sort: "price",
+    order: "asc",
+    available: "all"
+  });
+
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
+    const { name, value } = e.target;
+
+    setChildFormInputs((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  function handleSubmit(e: { preventDefault: () => void }) {
+    e.preventDefault();
+    console.log(childFormInputs);
+    onSendData(childFormInputs);
+  }
+
   return (
-    <nav className="bg-white shadow-lg p-4">
+    <form
+      method="post"
+      action="/"
+      className="bg-white shadow-lg p-4"
+      onSubmit={handleSubmit}
+    >
       <div className="container mx-auto  flex flex-col md:flex-row items-center gap-6 space-y-4 md:space-y-0">
         <div className="w-full md:w-1/3">
           <input
             type="text"
             placeholder="Buscar..."
+            name="search"
+            value={childFormInputs.search}
+            onChange={handleChange}
             className="w-full px-2 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -23,6 +63,8 @@ export default function Home() {
                 name="sort"
                 id="sort"
                 className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={childFormInputs.sort}
+                onChange={handleChange}
               >
                 <option value="price">Precio</option>
                 <option value="name">Nombre</option>
@@ -40,6 +82,8 @@ export default function Home() {
                 name="order"
                 id="order"
                 className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={childFormInputs.order}
+                onChange={handleChange}
               >
                 <option value="asc">Ascendente</option>
                 <option value="desc">Descendente</option>
@@ -56,6 +100,8 @@ export default function Home() {
                 name="available"
                 id="available"
                 className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={childFormInputs.available}
+                onChange={handleChange}
               >
                 <option value="all">Todos</option>
                 <option value="true">Disponible</option>
@@ -69,6 +115,8 @@ export default function Home() {
           </button>
         </div>
       </div>
-    </nav>
+    </form>
   );
-}
+};
+
+export default SearchBar;
