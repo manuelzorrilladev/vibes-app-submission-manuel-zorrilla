@@ -5,7 +5,7 @@
     "price": 75.5,
     "isAvailable": true,
     "category": "guantes",
-    "image": "/img/champion_gloves.jpg"
+    "image": "https://i.ibb.co/L5hY6Qj/champion-gloves.jpg"
   },
   {
     "id": "p2",
@@ -13,7 +13,7 @@
     "price": 15.0,
     "isAvailable": false,
     "category": "proteccion",
-    "image": "/img/proguard_mouthguard.jpg"
+    "image": "https://i.ibb.co/ZJ9y65V/proguard-mouthguard.jpg"
   },
   {
     "id": "p3",
@@ -21,7 +21,7 @@
     "price": 120.0,
     "isAvailable": true,
     "category": "sacos",
-    "image": "/img/heavy_duty_bag.jpg"
+    "image": "https://i.ibb.co/wJ2mY12/heavy-duty-bag.jpg"
   },
   {
     "id": "p4",
@@ -29,7 +29,7 @@
     "price": 8.99,
     "isAvailable": true,
     "category": "vendajes",
-    "image": "/img/flexwrap_wraps.jpg"
+    "image": "https://i.ibb.co/sK6X6kL/flexwrap-wraps.jpg"
   },
   {
     "id": "p5",
@@ -37,7 +37,7 @@
     "price": 45.75,
     "isAvailable": true,
     "category": "sacos",
-    "image": "/img/speedster_bag.jpg"
+    "image": "https://i.ibb.co/VMyh5R3/speedster-bag.jpg"
   },
   {
     "id": "p6",
@@ -45,7 +45,7 @@
     "price": 55.0,
     "isAvailable": true,
     "category": "proteccion",
-    "image": "/img/guardian_headgear.jpg"
+    "image": "https://i.ibb.co/5c5X0p0/guardian-headgear.jpg"
   },
   {
     "id": "p7",
@@ -53,7 +53,7 @@
     "price": 30.0,
     "isAvailable": true,
     "category": "ropa",
-    "image": "/img/legacy_shorts.jpg"
+    "image": "https://i.ibb.co/M9X9S2n/legacy-shorts.jpg"
   },
   {
     "id": "p8",
@@ -61,7 +61,7 @@
     "price": 19.5,
     "isAvailable": false,
     "category": "accesorios",
-    "image": "/img/aerojump_rope.jpg"
+    "image": "https://i.ibb.co/B2vQx2p/aerojump-rope.jpg"
   },
   {
     "id": "p9",
@@ -69,7 +69,7 @@
     "price": 85.0,
     "isAvailable": true,
     "category": "entrenamiento",
-    "image": "/img/focus_mitts_pro.jpg"
+    "image": "https://i.ibb.co/hL6vV4k/focus-mitts-pro.jpg"
   },
   {
     "id": "p10",
@@ -77,7 +77,7 @@
     "price": 65.0,
     "isAvailable": true,
     "category": "guantes",
-    "image": "/img/octagon_mma_gloves.jpg"
+    "image": "https://i.ibb.co/gT7h4xK/octagon-mma-gloves.jpg"
   },
   {
     "id": "p11",
@@ -85,7 +85,7 @@
     "price": 40.0,
     "isAvailable": true,
     "category": "sacos",
-    "image": "/img/wall_mount_bracket.jpg"
+    "image": "https://i.ibb.co/7C9m7B0/wall-mount-bracket.jpg"
   },
   {
     "id": "p12",
@@ -93,7 +93,7 @@
     "price": 95.0,
     "isAvailable": false,
     "category": "calzado",
-    "image": "/img/ring_king_shoes.jpg"
+    "image": "https://i.ibb.co/r7C8s7K/ring-king-shoes.jpg"
   },
   {
     "id": "p13",
@@ -101,7 +101,7 @@
     "price": 50.0,
     "isAvailable": true,
     "category": "ropa",
-    "image": "/img/classic_robe.jpg"
+    "image": "https://i.ibb.co/Gdkb6B5/classic-robe.jpg"
   },
   {
     "id": "p14",
@@ -109,7 +109,7 @@
     "price": 59.99,
     "isAvailable": true,
     "category": "guantes",
-    "image": "/img/spartan_gloves.jpg"
+    "image": "https://i.ibb.co/S6v6F4Q/spartan-gloves.jpg"
   },
   {
     "id": "p15",
@@ -117,6 +117,6 @@
     "price": 25.0,
     "isAvailable": true,
     "category": "proteccion",
-    "image": "/img/elite_guard_groin.jpg"
+    "image": "https://i.ibb.co/5Y2n2G3/elite-guard-groin.jpg"
   }
 ]
